@@ -82,7 +82,7 @@ def main():
     ap.add_argument(
     "--dosfile",
     type=str,
-    default="~/Documents/Gpaw/master/dos/dos_total.txt",
+    default="~your DOS txt or csv file path",
     help="Path to DOS file (default: GPAW DOS file)")
     ap.add_argument("--temp", type=float, default=300.0)
     ap.add_argument("--window", type=float, default=0.30)
